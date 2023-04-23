@@ -1,5 +1,5 @@
 import Image from "next/image";
-import arrayDestructuring from "../assets/portfolio/arrayDestruct.jpg";
+import adminDashboard from "../assets/portfolio/adminDashboard.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -10,7 +10,7 @@ const PortfolioPage = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestructuring,
+      src: adminDashboard,
     },
     {
       id: 2,
